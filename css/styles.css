@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.alisson{
+  background-image: url("../img/8.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin: 1cm;
+  height: 68vh;
+}
+
+body{
+  font-family: Poppins, "sans-serif";
+  background-color: rgb(255, 208, 137);
+}
+
+.form{
+  padding-top: 2cm;
+  margin: 2rem;
+}
+
+#submit{
+  width: 370px;
+  padding: 0.3cm;
+}
