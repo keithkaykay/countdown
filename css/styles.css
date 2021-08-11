@@ -9,11 +9,13 @@
   font-family: "Poppins", sans-serif;
   margin: 1cm;
   height: 68vh;
+  width: auto;
 }
 
 body{
   font-family: Poppins, "sans-serif";
   background-color: rgb(255, 208, 137);
+  width: auto;
 }
 
 .form{
@@ -22,6 +24,16 @@ body{
 }
 
 #submit{
-  width: 370px;
+  width: auto;
   padding: 0.3cm;
+}
+
+.tsimikas{
+  margin: 0;
+  padding: 0;
+}
+
+.fabinho{
+  background-color: rgb(224, 255, 193);
+  border: 20%;
 }
