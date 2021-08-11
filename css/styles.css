@@ -8,10 +8,16 @@
   align-items: center;
   font-family: "Poppins", sans-serif;
   margin: 1cm;
-  height: 68vh;
+  height: auto;
   width: auto;
 }
 
+.container{
+  margin-top: 3cm;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
 
 * {
   box-sizing: border-box;
@@ -47,5 +53,6 @@ body{
 
 .fabinho{
   background-color: rgb(224, 255, 193);
-  border: 20%;
+  border-radius: 5%;
+  width: auto;
 }
