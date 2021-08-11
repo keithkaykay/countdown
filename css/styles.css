@@ -12,6 +12,11 @@
   width: auto;
 }
 
+
+* {
+  box-sizing: border-box;
+}
+
 body{
   font-family: Poppins, "sans-serif";
   background-color: rgb(255, 208, 137);
@@ -23,9 +28,16 @@ body{
   margin: 2rem;
 }
 
+.konate{
+  width: auto;
+  padding: auto;
+  display:inline-flex;
+}
+
 #submit{
   width: auto;
   padding: 0.3cm;
+  margin-top: -1cm;
 }
 
 .tsimikas{
