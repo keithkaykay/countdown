@@ -24,6 +24,9 @@
 }
 
 body{
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  background-position: center center;
   font-family: Poppins, "sans-serif";
   background-color: rgb(255, 208, 137);
   width: auto;

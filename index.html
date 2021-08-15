@@ -3,7 +3,6 @@
 <head>
   <title>K - Countdown</title>
   <meta charset="UTF-8">
-  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4839ff5d07415c63a91130f15/9a7763838b388996b1cb3e706.js");</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -17,17 +16,17 @@
   <div class="container">
     <div class="alisson" >
       <div>
-        <form onsubmit="return false" class="form">
+        <form action="page.html" class="form" method="GET">
           <label class="tsimikas">Event name?</label>
           <br>
-          <input type="text" name="event" required class="fabinho">
+          <input id="event" type="text" name="event" required class="fabinho">
           <br>
           <label class="tsimikas">Date?</label>
           <br>
-          <input name="date" value="2022-01-09" min="2021-08-11" type="date" required class="fabinho">
+          <input id="date" name="date" value="2022-01-09" min="2021-08-11" type="date" required class="fabinho">
           <p>e.g. Try your birthday or new years day</p>
           <br>
-          <button type="submit" value="submit" class="btn btn-success" id="submit" >Countdown</button>
+          <button onclick="myFunction()" type="submit" value="submit" class="btn btn-success" id="submit" >Countdown</button>
         </form>
       </div>
       <div class="virgil">

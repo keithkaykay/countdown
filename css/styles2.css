@@ -1,14 +1,18 @@
 body{
   background-color: rgb(196, 193, 193);
   font-family: Poppins, "sans-serif";
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  background-position: center center;
 }
  
 .messi{
   width: auto;
   background-image: url("../img/1.jpg");
   background-size: cover;
-  background-position: center center;
-  height: auto; 
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
 }
 
 * {
